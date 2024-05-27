@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+ .course-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.course-table th, .course-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width:   100px;
+}
+
+.course-table th {
+  background-color: #66CCFF;
+}
+
+.course-table tbody tr:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+.course-table tbody tr:hover {
+  background-color: #ddd;
+} 
+.radio-column {
+  width: 50px;
+}
+
+.stt-column {
+  width: 50px;
+}
+h2 {
+  /* color: #333; */
+  font-size: 24px;
+  margin: 20px;
+
+}
